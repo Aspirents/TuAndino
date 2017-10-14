@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/platos"
+            android:icon="@drawable/plato2"
+            android:title="Platos" />
+        <item
+            android:id="@+id/bebidas"
+            android:icon="@drawable/bebida"
+            android:title="Bebidas" />
+        <item
+            android:id="@+id/dulces"
+            android:icon="@drawable/candy2"
+            android:title="Dulces" />
+        <item
+            android:id="@+id/config"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/compartir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/enviar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar" />
+        </menu>
+    </item>
+
+</menu>

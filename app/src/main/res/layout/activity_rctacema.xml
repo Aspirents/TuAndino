@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carolpoveda.tuandino.rctacema">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtacema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acemas"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/idacema"
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                app:srcCompat="@drawable/acema" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="Ingredientes"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ingarepa2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:soundEffectsEnabled="true"
+                        android:text="•    3 huevos"
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/ingarepa1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:soundEffectsEnabled="true"
+                        android:text="•    1 kilo de harina de trigo"
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/ingarepa3"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:soundEffectsEnabled="true"
+                        android:text="•   1 taza de leche"
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/ingarepa4"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:soundEffectsEnabled="true"
+                        android:text="•  1 cucharada de mantequilla"
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/ingarepa5"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:soundEffectsEnabled="true"
+                        android:text="•  1 cucharada de levadura granulada"
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/ingarepa6"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:soundEffectsEnabled="true"
+                        android:text="•  1 cucharada de manteca "
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/ingarepa7"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:soundEffectsEnabled="true"
+                        android:text="•  2 tazas de melado de papelón"
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/ingarepa8"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="22dp"
+
+                        android:text="•  1 cucharadita nuez moscada"
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/ingarepa9"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:soundEffectsEnabled="true"
+                        android:text="•  2 cucharadas de anís en pepitas "
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+                    <TextView
+                        android:id="@+id/ingarepa10"
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="left"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:soundEffectsEnabled="true"
+                        android:text="•  2 cucharadas de azúcar    "
+                        android:textIsSelectable="true"
+                        android:textSize="25dp" />
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="Preparación"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+
+
+            <TextView
+
+                android:id="@+id/preacema"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="clip_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="22dp"
+                android:layout_marginBottom="22dp"
+                android:soundEffectsEnabled="true"
+                android:text="
+
+Se coloca la levadura con el azúcar y la taza de leche tibia, se deja reposar
+durante 20 minutos, se baten los huevos y se le agrega la manteca, la
+margarina, el anís y el melado de papelón, todo se mezcla bien y se une a la
+levadura, a la harina se le agrega la nuez moscada y lentamente se va
+amasando hasta formar una masa suave y compacta. Se deja reposar durante
+una hora. Después se hacen las pelotas y se aplastan con la mano para que
+queden como arepas gruesas, se colocan en platones de hornos engrasados y
+se hornea a 170°C-350º F., por media hora. La acema es un alimento
+tradicional propio de la temporada de la Semana Santa en las zonas rurales y
+de consumo frecuente en las ciudades y pueblos. Su elaboración
+principalmente es a base de la corteza del trigo.
+"
+                android:textAllCaps="true"
+                android:textIsSelectable="true"
+                android:textSize="20dp"
+                android:layout_marginTop="8dip"
+                android:layout_marginLeft="7dp"
+                android:paddingLeft="5dp"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

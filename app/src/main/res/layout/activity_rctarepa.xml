@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carolpoveda.tuandino.Rctarepa">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtarepa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arepas Andias"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                app:srcCompat="@drawable/arepasandinas" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="Ingredientes"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ingarepa"
+                    android:layout_gravity="center_vertical|right"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="22dp"
+                    android:layout_marginBottom="22dp"
+                    android:soundEffectsEnabled="true"
+                    android:text="- 1/2 Kg de harina de trigo
+- 2 cucharadas de mantequilla
+- 1 huevo
+- Leche líquida tibia, la necesaria para amasar
+- Sal al gusto
+- 2 cucharadas de azúcar, si se quiere un poco más dulce se agrega más
+- 1 cucharadita de polvo de hornear
+    "
+                    android:textIsSelectable="true"
+                    android:textSize="25dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="Preparación"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+
+                android:id="@+id/prearepa"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="clip_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="22dp"
+                android:layout_marginBottom="22dp"
+                android:soundEffectsEnabled="true"
+                android:text="
+
+Colocar la harina con el polvo de hornear en un bol junto con la sal y el azúcar, mezclar. Hacerle un hueco en el centro y añadir la mantequilla ablandada con el huevo.
+Se mezcla bien, hasta que no queden grumos de mantequilla.
+Se adiciona poco a poco la leche líquida amasando constantemente, hasta que se comience a formar la masa, que no quede muy húmeda. Amasar muy bien la masa hasta que este suave.
+Se deja reposar por aproximadamente una hora, a temperatura ambiente.
+Se hace un “rollo” con la masa y se cortan rodajas. Después se les da forma circular a las porciones de masa aplastándolas para hacer las arepas, llevándolas a un espesor de un centímetro aproximadamente o más delgadas si lo desean, lo que no recomiendo es hacerlas más gruesas porque podrían quedar crudas en su interior.
+Se hacen las arepas y las mismas se deben trinchar (puyar) con un tenedor para dejar que salga el aire y no se inflen demasiado.
+Se calienta un budare o plancha de cocina, luego de estar caliente, se colocan las arepas en el budare y se doran por ambos lados.
+Al estar listas se colocan sobre un paño seco, se tapan, dejándolas reposar hasta que estén tibias y listo, a disfrutar este delicioso plato venezolano."
+                android:textAllCaps="true"
+                android:textIsSelectable="true"
+                android:textSize="20dp"
+                android:layout_marginTop="8dip"
+                android:layout_marginLeft="7dp"
+                android:paddingLeft="5dp"
+
+                 />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
